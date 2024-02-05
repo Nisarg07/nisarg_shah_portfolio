@@ -69,7 +69,7 @@ export default function Hero() {
               animate="animate"
               id="b1"
             >
-              See the latest works
+              <a href="#Portfolio">See the latest works</a>
             </motion.button>
             <motion.button
               variants={textVariants}
@@ -77,7 +77,7 @@ export default function Hero() {
               animate="animate"
               id="b2"
             >
-              Contact Me
+              <a href="#Contact">Contact Me</a>
             </motion.button>
           </motion.div>
         </motion.div>
