@@ -1,5 +1,11 @@
 .portfolio {
   position: relative;
+  @media (max-width: 768px) {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
 }
 .progress {
   position: sticky;
@@ -8,9 +14,6 @@
   padding-top: 50px;
   text-align: center;
   z-index: 2;
-  @media (max-width: 768px) {
-    /* padding-top: calc(100vh - 60px); */
-  }
 }
 .portfolio h1 {
   color: orange;
@@ -33,6 +36,7 @@
   overflow: auto;
   /* margin-left: 2%; */
   @media (max-width: 768px) {
+    width: 100%;
     flex-direction: column;
   }
 }
@@ -43,17 +47,11 @@
   flex: 1;
   height: 50%;
   display: flex;
-  /* align-items: center; */
   justify-content: flex-end;
   @media (max-width: 768px) {
-    /* position: absolute; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: fit-content;
+    width: 100%;
     max-height: 200px;
-    margin-right: 36%;
-    /* z-index: unset; */
+    margin-right: 33%;
   }
 }
 
@@ -71,6 +69,10 @@
 
 .portfolio .textWrapper {
   flex: 1;
+  @media (max-width: 768px) {
+    /* flex: 1.5; */
+    padding: auto;
+  }
 }
 
 .portfolio .textContainer {
@@ -79,11 +81,21 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  @media (max-width: 768px) {
+    width: 80%;
+    text-align: center;
+    margin-left: 18%;
+    /* margin-bottom: 15%; */
+    overflow-wrap: break-word;
+  }
 }
 
 .portfolio .textContainer h2 {
   font-size: 52px;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 34px;
+  }
 }
 
 .portfolio .textContainer p {
@@ -91,6 +103,9 @@
   font-size: 20px;
   color: gray;
   text-align: center;
+  @media (max-width: 768px) {
+    text-align: justify;
+  }
 }
 
 .portfolio .textContainer button {
@@ -108,4 +123,19 @@
   height: 100%;
   margin: auto;
   gap: 50px;
+}
+.temporary {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  margin: auto;
+  padding: auto;
+  font-size: 54px;
+  @media (max-width: 768px) {
+    width: 200px;
+    left: 25%;
+    font-size: 24px;
+    text-align: center;
+    /* overflow-wrap: break-word; */
+  }
 }
