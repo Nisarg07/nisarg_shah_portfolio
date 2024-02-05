@@ -97,13 +97,8 @@ export default function Services() {
             border: "0.8px solid rgba(128, 128, 128, 1)",
           }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <h2>HTML5</h2>
+          <img src="/images/html5.png" alt="" />
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -113,13 +108,8 @@ export default function Services() {
             border: "0.8px solid rgba(128, 128, 128, 1)",
           }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <h2>CSS3</h2>
+          <img src="/images/css3.png" alt="" />
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -129,13 +119,8 @@ export default function Services() {
             border: "0.8px solid rgba(128, 128, 128, 1)",
           }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <h2>ReactJS</h2>
+          <img src="/images/react.png" alt="" />
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -145,13 +130,8 @@ export default function Services() {
             border: "0.8px solid rgba(128, 128, 128, 1)",
           }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <h2>Firebase</h2>
+          <img src="/images/firebase.png" alt="" />
           <button>Go</button>
         </motion.div>
       </motion.div>
