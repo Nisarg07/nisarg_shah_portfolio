@@ -37,8 +37,17 @@ const Single = ({ item }) => {
     <section>
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
+          <div className="imageContainer" ref={ref} id="img1">
             <img src={item.img} alt="" />
+            <motion.img
+              src="/images/scroll-horizontal.png"
+              alt=""
+              id="img2"
+              animate={{
+                opacity: 0,
+                transition: { duration: 2, repeat: Infinity },
+              }}
+            />
           </div>
           <div className="textWrapper">
             <motion.div className="textContainer" style={{ y }}>
