@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import "./parallax.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -11,13 +11,6 @@ export default function Parallax(props) {
   });
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
-
-  useEffect(() => {
-    // Reset scrollYProgress to 0 when the component unmounts
-    return () => {
-      scrollYProgress.set(0);
-    };
-  }, [scrollYProgress, props.type]);
 
   return (
     <div

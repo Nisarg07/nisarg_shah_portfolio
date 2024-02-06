@@ -84,9 +84,6 @@ export default function Contact() {
               height="450px"
               viewBox="0 0 64 64"
               version="1.1"
-              //   xml:space="preserve"
-              //   xmlns="http://www.w3.org/2000/svg"
-              //   xmlns:xlink="http://www.w3.org/1999/xlink"
             >
               <motion.path
                 strokeWidth={0.4}

@@ -79,7 +79,7 @@ export default function Services() {
             initial="small"
             whileHover="big"
           >
-            What We Do?
+            Tech Stack
           </motion.button>
         </div>
       </motion.div>
@@ -98,8 +98,12 @@ export default function Services() {
           }}
         >
           <h2>HTML5</h2>
-          <img src="/images/html5.png" alt="" />
-          <button>Go</button>
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
+            <img src="/images/html5.png" alt="" />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
+            <button> Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -109,8 +113,12 @@ export default function Services() {
           }}
         >
           <h2>CSS3</h2>
-          <img src="/images/css3.png" alt="" />
-          <button>Go</button>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <img src="/images/css3.png" alt="" />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -120,8 +128,13 @@ export default function Services() {
           }}
         >
           <h2>ReactJS</h2>
-          <img src="/images/react.png" alt="" />
-          <button>Go</button>
+          <a href="https://legacy.reactjs.org/docs/getting-started.html">
+            {" "}
+            <img src="/images/react.png" alt="" />
+          </a>
+          <a href="https://legacy.reactjs.org/docs/getting-started.html">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -131,8 +144,12 @@ export default function Services() {
           }}
         >
           <h2>Firebase</h2>
-          <img src="/images/firebase.png" alt="" />
-          <button>Go</button>
+          <a href="https://firebase.google.com/docs">
+            <img src="/images/firebase.png" alt="" />
+          </a>
+          <a href="https://firebase.google.com/docs">
+            <button>Go</button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
